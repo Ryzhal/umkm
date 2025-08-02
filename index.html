@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMKM Desa Gattareng - Produk Unggulan Soppeng</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/Logo-DESA-GATTARENG-TOA.png" alt="Logo UMKM Gattareng" />
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#beranda" class="active">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button class="login-btn">Login</button>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Beranda Section -->
+    <section id="beranda">
+      <div class="hero-content">
+        <h1>UMKM - Desa Gattareng Toa</h1>
+        <p>
+          Menghadirkan kearifan lokal dan keaslian produk-produk terbaik dari
+          daerah Soppeng
+        </p>
+        <a href="#produk" class="cta-button">
+          <span>Jelajahi Produk</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <a href="#tentang" class="scroll-down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang">
+      <div class="section-title">
+        <h2>Desa Gattareng</h2>
+        <div class="title-decoration"></div>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Desa Gattareng terletak di Kecamatan Marioriawa, Kabupaten Soppeng,
+            Sulawesi Selatan. Desa ini dikelilingi oleh panorama alam yang
+            memukau dengan hamparan sawah hijau dan udara yang sejuk.
+          </p>
+          <p>
+            Desa Gattareng Toa juga dikenal sebagai destinasi wisata yang indah
+            dan asri. Keindahan alamnya yang masih alami, dipadukan dengan
+            suasana pedesaan yang tenang, menjadikan tempat ini cocok untuk
+            melepas penat dari hiruk-pikuk kota. Wisatawan dapat menikmati
+            pemandangan hijau yang memanjakan mata, udara segar, serta keramahan
+            masyarakat setempat yang menjadi daya tarik tersendiri.
+          </p>
+
+          <p>Berikut Salah Beberapa Tempat Wisata Di Anataranya :</p>
+          <p>1. Permandian Alam Banga</p>
+          <p>2. Lappa Rajo</p>
+          <p>3. MT. Masimpolonge</p>
+          <p>4. MT. Bulu dua</p>
+          <p>5. Air Terjun Laposo</p>
+        </div>
+
+        <!-- HTML -->
+        <div class="about-image slideshow-container">
+          <div class="slide fade">
+            <img src="img/lokasi/banga.jpg" alt="Slide 1" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/banga2.jpg" alt="Slide 2" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/wisata1.jpg" alt="Slide 3" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/wisata2.jpg" alt="Slide 3" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/wisata3.jpg" alt="Slide 3" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/wisata4.jpg" alt="Slide 3" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/wasata5.jpg" alt="Slide 3" />
+          </div>
+          <div class="slide fade">
+            <img src="img/lokasi/wisata6.jpg" alt="Slide 3" />
+          </div>
+
+          <!-- Tombol manual -->
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Produk Section -->
+    <section id="produk">
+      <div class="section-title">
+        <h2>Produk Kami</h2>
+        <div class="title-decoration"></div>
+        <p style="margin-top: 5px">
+          Berbagai produk unggulan dengan kualitas terbaik langsung dari
+          sumbernya
+        </p>
+      </div>
+
+      <div class="product-slider-wrapper">
+        <button class="slider-btn prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="product-grid">
+          <!-- Produk 1 -->
+          <div class="product-card">
+            <div class="product-badge">Terlaris</div>
+            <div class="product-image">
+              <img src="img/produk/dodol-pangi.jpg" alt="Dodol Pangi" />
+            </div>
+            <div class="product-info">
+              <span class="product-category">Cemilan</span>
+              <h3>Dodol Pangi Varian 10</h3>
+              <div class="product-price">Rp 10.000</div>
+              <button
+                class="wa-button"
+                onclick="orderProduct('Dodol Pangi 10', 'Rp 10.000')"
+              >
+                <i class="fab fa-whatsapp"></i><span>Pesan Sekarang</span>
+              </button>
+            </div>
+          </div>
+          <!-- Produk 2 -->
+          <div class="product-card">
+            
+            <div class="product-image">
+              <img src="img/produk/dodol-pangi.jpg" alt="Dodol Pangi" />
+            </div>
+            <div class="product-info">
+              <span class="product-category">Cemilan</span>
+              <h3>Dodol Pangi Varian 20</h3>
+              <div class="product-price">Rp 20.000</div>
+              <button
+                class="wa-button"
+                onclick="orderProduct('Dodol Pangi 20', 'Rp 20.000')"
+              >
+                <i class="fab fa-whatsapp"></i><span>Pesan Sekarang</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Produk 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="img/produk/gula-merah-batu.jpg"
+                alt="Gula Merah Padat"
+              />
+            </div>
+            <div class="product-info">
+              <span class="product-category">Cemilan</span>
+              <h3>Gula Merah Padat</h3>
+              <div class="product-price">Rp 18.000 <span>Rp 20.000</span></div>
+              <button
+                class="wa-button"
+                onclick="orderProduct('Gula Merah Padat', 'Rp 18.000')"
+              >
+                <i class="fab fa-whatsapp"></i><span>Pesan Sekarang</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Produk 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/produk/gula-merah.jpg" alt="Gula Merah Cair" />
+            </div>
+            <div class="product-info">
+              <span class="product-category">Cemilan</span>
+              <h3>Gula Merah Cair</h3>
+              <div class="product-price">Rp 10.000 <span>Rp 15.000</span></div>
+              <button
+                class="wa-button"
+                onclick="orderProduct('Gula Merah Cair', 'Rp 10.000')"
+              >
+                <i class="fab fa-whatsapp"></i><span>Pesan Sekarang</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Produk 5 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/produk/tuak.jpg" alt="Tuak" />
+            </div>
+            <div class="product-info">
+              <span class="product-category">Herbal</span>
+              <h3>Tuak</h3>
+              <div class="product-price">Rp 5.000</div>
+              <button
+                class="wa-button"
+                onclick="orderProduct('Tuak', 'Rp 5.000')"
+              >
+                <i class="fab fa-whatsapp"></i><span>Pesan Sekarang</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Produk lainnya copy-paste seperti biasa -->
+          <!-- ... -->
+        </div>
+
+        <button class="slider-btn next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <hr />
+    <!-- Kontak Section -->
+    <section id="kontak">
+      <div class="section-title">
+        <h2>Hubungi Kami</h2>
+        <div class="title-decoration"></div>
+        <p style="margin-top: 5px">
+          Silakan menghubungi kami untuk informasi lebih lanjut
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3>Informasi Kontak</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Alamat</h4>
+                <p>
+                  Jl. Poros Gattareng, Kec. Marioriawa, Kab. Soppeng, Sulawesi
+                  Selatan
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Telepon</h4>
+                <a href="tel:+628123456789">+62 812-3456-7890</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <a href="mailto:umkm.gattareng@gmail.com"
+                  >umkm.gattareng@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>Jam Operasional</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Senin - Jumat</h4>
+                <p>08:00 - 17:00 WITA</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Sabtu</h4>
+                <p>08:00 - 14:00 WITA</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Minggu</h4>
+                <p>Tutup</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form
+          id="contact-form"
+          action="https://formsubmit.co/umkm.gattareng@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="Pesan dari Website UMKM Gattareng"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Nomor Telepon</label>
+            <input type="tel" id="phone" name="phone" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i>
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Tentang Kami</h3>
+          <p>
+            UMKM Desa Gattareng Toa berkomitmen untuk mempromosikan
+            produk-produk unggulan dari masyarakat Desa Gattareng Toa, Soppeng.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Link Cepat</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="#beranda"
+                ><i class="fas fa-chevron-right"></i> Beranda</a
+              >
+            </li>
+            <li>
+              <a href="#tentang"
+                ><i class="fas fa-chevron-right"></i> Tentang Desa</a
+              >
+            </li>
+            <li>
+              <a href="#produk"><i class="fas fa-chevron-right"></i> Produk</a>
+            </li>
+            <li>
+              <a href="#kontak"><i class="fas fa-chevron-right"></i> Kontak</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Kontak</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Jl. Poros Gattareng, Soppeng
+          </p>
+          <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+          <p><i class="fas fa-envelope"></i> umkm.gattareng@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 UMKM Desa Gattareng Toa. Developed By KKNT Unipol 2025
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+      // Mobile Menu Toggle
+      const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        mobileMenuBtn.innerHTML = navLinks.classList.contains("active")
+          ? '<i class="fas fa-times"></i>'
+          : '<i class="fas fa-bars"></i>';
+      });
+
+      // Close mobile menu when clicking a link
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+        });
+      });
+
+      // Navbar scroll effect
+      window.addEventListener("scroll", () => {
+        const navbar = document.querySelector(".navbar");
+        const backToTop = document.querySelector(".back-to-top");
+
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+
+        if (window.scrollY > 300) {
+          backToTop.classList.add("active");
+        } else {
+          backToTop.classList.remove("active");
+        }
+      });
+
+      // Back to top button
+      document.querySelector(".back-to-top").addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      // Active link highlight on scroll
+      const sections = document.querySelectorAll("section");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+
+          if (pageYOffset >= sectionTop - 300) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        document.querySelectorAll(".nav-links a").forEach((a) => {
+          a.classList.remove("active");
+          if (a.getAttribute("href") === `#${current}`) {
+            a.classList.add("active");
+          }
+        });
+      });
+
+      // Form submission
+      const contactForm = document.getElementById("contact-form");
+      if (contactForm) {
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const formData = new FormData(this);
+
+          // Show loading state
+          const submitBtn = this.querySelector('button[type="submit"]');
+          const originalText = submitBtn.innerHTML;
+          submitBtn.innerHTML =
+            '<i class="fas fa-spinner fa-spin"></i> Mengirim...';
+          submitBtn.disabled = true;
+
+          fetch(this.action, {
+            method: "POST",
+            body: formData,
+            headers: {
+              Accept: "application/json",
+            },
+          })
+            .then((response) => {
+              if (response.ok) {
+                alert(
+                  "Pesan berhasil dikirim! Kami akan segera menghubungi Anda."
+                );
+                this.reset();
+              } else {
+                throw new Error("Network response was not ok");
+              }
+            })
+            .catch((error) => {
+              alert(
+                "Terjadi kesalahan. Silakan coba lagi atau hubungi kami langsung via WhatsApp."
+              );
+              console.error("Error:", error);
+            })
+            .finally(() => {
+              submitBtn.innerHTML = originalText;
+              submitBtn.disabled = false;
+            });
+        });
+      }
+
+      // Animation on scroll
+      const animateOnScroll = () => {
+        const elements = document.querySelectorAll(
+          ".about-content, .section-title, .product-card, .contact-card"
+        );
+
+        elements.forEach((element) => {
+          const elementPosition = element.getBoundingClientRect().top;
+          const screenPosition = window.innerHeight / 1.3;
+
+          if (elementPosition < screenPosition) {
+            element.style.animation = "fadeIn 1s ease-out forwards";
+          }
+        });
+      };
+
+      window.addEventListener("scroll", animateOnScroll);
+      window.addEventListener("load", animateOnScroll);
+    </script>
+    <script src="js/chatproduk.js"></script>
+    <script src="js/slide.js"></script>
+  </body>
+</html>
